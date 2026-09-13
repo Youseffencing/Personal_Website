@@ -322,3 +322,10 @@
   .hero-media{background-position:50% 49%!important}
   .hero-content{padding-bottom:clamp(34px,4.5svh,62px)!important}
 }
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .hero {
+height: 100vh;
+  min-height: 100vh;
+    }
+  }
